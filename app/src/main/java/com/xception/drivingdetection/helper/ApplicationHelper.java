@@ -1,8 +1,6 @@
 package com.xception.drivingdetection.helper;
 
 import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 
 import com.xception.drivingdetection.App;
 
@@ -31,11 +29,5 @@ public class ApplicationHelper {
 
     public Context getContext() {
         return mContext;
-    }
-
-    public boolean isNetworkAvailable() {
-        ConnectivityManager cm = (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
-        return activeNetwork != null && activeNetwork.isConnectedOrConnecting();
     }
 }

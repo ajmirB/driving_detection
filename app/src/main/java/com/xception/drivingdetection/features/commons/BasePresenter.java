@@ -13,8 +13,20 @@ public abstract class BasePresenter<T extends BaseContract.View> implements Base
         mCompositeDisposable = new CompositeDisposable();
     }
 
+    // region BaseContract.Presenter
+
     @Override
     public void onViewCreated() {
+
+    }
+
+    @Override
+    public void onViewResumed() {
+
+    }
+
+    @Override
+    public void onViewPaused() {
 
     }
 
@@ -22,4 +34,6 @@ public abstract class BasePresenter<T extends BaseContract.View> implements Base
     public void onViewDestroyed() {
         mCompositeDisposable.dispose();
     }
+
+    // endregion
 }
