@@ -2,7 +2,7 @@ package com.xception.drivingdetection.features.driving;
 
 import com.xception.drivingdetection.features.commons.BaseContract;
 
-public interface DrivingContract extends BaseContract {
+public interface DrivingStateContract extends BaseContract {
 
     interface Presenter extends BaseContract.Presenter {
     }
@@ -12,7 +12,8 @@ public interface DrivingContract extends BaseContract {
     }
 
     class Data {
-        public Integer textResId;
-        public int speed;
+        public int drivingStateTextResId;
+        public int drivingStateTextColorResId;
+        public String accelerationToDisplay;
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Driving -->
+    <dimen name="driving_car_state_text_size">22sp</dimen>
+    <dimen name="driving_car_acceleration_text_size">70sp</dimen>
+    <dimen name="driving_car_acceleration_unit_measure_text_size">18sp</dimen>
+
+</resources>

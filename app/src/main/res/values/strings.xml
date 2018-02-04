@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Driving detection</string>
+
+    <!-- Driving -->
+    <string name="driving_car_state_in_motion">The car is moving</string>
+    <string name="driving_car_state_not_in_motion">The car is not moving</string>
+    <string name="driving_acceleration_unit_measure">m/s²</string>
+
 </resources>
